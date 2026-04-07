@@ -687,7 +687,7 @@
 
   <nav id="navbar">
     <a href="#hero" class="nav-logo">
-      Likha
+      Likhâ
       <span>tile artisan</span>
     </a>
     <ul class="nav-links">
@@ -751,7 +751,7 @@
       <p class="section-label">The Maker</p>
       <h2 class="section-heading">Craft rooted in<br><em>precision &amp; vision.</em></h2>
       <p>
-        Likha — from the Filipino word meaning "to create" — was born from a belief that 
+        Likhâ — from the Filipino word meaning "to create" — was born from a belief that 
         tiling is far more than a trade. It is a discipline, a language of texture, 
         and when placed with intention, an art form.
       </p>
@@ -837,7 +837,7 @@
       it defines how a room feels, how light moves,<br>
       and how a person breathes within it."
     </p>
-    <p class="philosophy-attr">— The Likha Principle</p>
+    <p class="philosophy-attr">— The Likhâ Principle</p>
     <div class="tile-strip">
       <div class="strip-tile" style="background:var(--gold);opacity:0.5"></div>
       <div class="strip-tile" style="background:var(--ivory);opacity:0.3"></div>
@@ -939,7 +939,7 @@
       <p class="section-label">Begin a Commission</p>
       <h2 class="section-heading">Let's create<br><em>something</em><br>extraordinary.</h2>
       <p class="contact-text">
-        Every Likha piece begins with a conversation. Whether you have a clear vision 
+        Every Likhâ piece begins with a conversation. Whether you have a clear vision 
         or simply a feeling — reach out, and we will find the form together.
       </p>
       <div class="contact-detail">
@@ -991,8 +991,8 @@
   <!-- FOOTER -->
 
   <footer>
-    <div class="footer-logo">Likha | tile artisan</div>
-    <div class="footer-copy">© 2026 Likha. All rights reserved.</div>
+    <div class="footer-logo">Likhâ | tile artisan</div>
+    <div class="footer-copy">© 2026 Likhâ. All rights reserved.</div>
     <div class="footer-social">
       <a href="https://instagram.com/likhaartisan.co" target="_blank">Instagram</a>
     </div>
