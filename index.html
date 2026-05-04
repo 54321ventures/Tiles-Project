@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -120,10 +119,10 @@
   .c-karst .coll-bg{background:linear-gradient(145deg,#1a1510,#2e2418)}
   .c-monolith .coll-bg{background:linear-gradient(145deg,#2a2820,#1a1c20)}
   .c-archipelago .coll-bg{background:linear-gradient(145deg,var(--sand),var(--ivory))}
-  .c-lorna .coll-bg{background:linear-gradient(145deg,#c46a3a,#8a4a60)}
+  .c-flora .coll-bg{background:linear-gradient(145deg,#c46a3a,#8a4a60)}
   .c-relievo .coll-bg{background:linear-gradient(145deg,var(--accent),#5a4f44)}
   .c-meridian .coll-bg{background:linear-gradient(145deg,#9e4e24,#c4843a)}
-  .c-karst .coll-bg::before,.c-monolith .coll-bg::before,.c-lorna .coll-bg::before,
+  .c-karst .coll-bg::before,.c-monolith .coll-bg::before,.c-flora .coll-bg::before,
   .c-relievo .coll-bg::before,.c-meridian .coll-bg::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:38px 38px}
   .coll-info{position:relative;z-index:1}
   .coll-name{font-family:var(--serif);font-size:1.8rem;font-weight:300;color:var(--ivory);margin-bottom:.3rem}
@@ -249,7 +248,6 @@
 <div class="toast" id="toast">Added to cart ✦</div>
 
 <!-- CART DRAWER -->
-
 <div class="cart-drawer" id="cartDrawer">
   <div class="cd-head">
     <span class="cd-title">Your Cart</span>
@@ -260,15 +258,14 @@
   </div>
   <div class="cd-foot">
     <div class="cd-total"><span class="cd-total-l">Subtotal</span><span class="cd-total-v" id="cartTotal">S$0</span></div>
-    <p class="cd-note">Prices include installation within Singapore. Philippine &amp; international orders quoted separately.</p>
+    <p class="cd-note">All prices are in SGD. Philippine &amp; international shipping quoted upon enquiry.</p>
     <button class="cd-checkout" id="cdCheckout">Proceed to Enquiry →</button>
   </div>
 </div>
 
 <!-- NAV -->
-
 <nav id="navbar">
-  <a href="#hero" class="nav-logo">Likhâ <span>tile artisan</span></a>
+  <a href="#hero" class="nav-logo">Likhâ <span>tile artisan · philippines</span></a>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
     <li><a href="#services">Services</a></li>
@@ -281,10 +278,9 @@
 </nav>
 
 <!-- HERO -->
-
 <section id="hero">
   <div class="hero-content">
-    <p class="hero-eyebrow">Surface Art · Singapore &amp; Philippines</p>
+    <p class="hero-eyebrow">Surface Art · Philippines &amp; Worldwide</p>
     <h1 class="hero-title">Where tile<br>becomes <em>art.</em></h1>
     <p class="hero-subtitle">Bespoke tile installations conceived as functional art — designed for interiors that demand more than the ordinary. Every surface, a statement.</p>
     <div class="hero-btns">
@@ -304,7 +300,6 @@
 </section>
 
 <!-- ABOUT -->
-
 <section id="about">
   <div class="about-text reveal">
     <p class="section-label">The Maker</p>
@@ -320,7 +315,6 @@
 </section>
 
 <!-- SERVICES -->
-
 <section id="services">
   <div class="reveal">
     <p class="section-label">What I Do</p>
@@ -337,7 +331,6 @@
 </section>
 
 <!-- PHILOSOPHY -->
-
 <section id="philosophy">
   <p class="section-label">The Belief</p>
   <div class="tile-strip">
@@ -365,7 +358,6 @@
 </section>
 
 <!-- COLLECTIONS -->
-
 <section id="collections">
   <div class="reveal">
     <p class="section-label">Design Language</p>
@@ -411,15 +403,17 @@
         </div>
       </div>
     </div>
-    <div class="collection-card c-lorna">
+    <div class="collection-card c-flora">
       <div class="coll-bg">
         <div class="coll-info">
-          <div class="coll-name">Lorna</div>
+          <div class="coll-name">Flora</div>
           <div class="coll-technique">Embossed from Real Plants &amp; Flowers</div>
-          <div class="coll-desc">Living plants and flowers pressed directly into tile before firing, leaving a permanent tactile impression of nature in ceramic. Every piece carries the exact imprint of a real plant — genuinely one of a kind. Named for the maker herself.</div>
+          <div class="coll-desc">Living plants and flowers pressed directly into tile before firing, leaving a permanent tactile impression of nature in ceramic. Every piece carries the exact imprint of a real plant — genuinely one of a kind. Each sub-name honours a woman who shaped the maker.</div>
           <div class="coll-subnames">
-            <span class="coll-sub">Lorna Fern</span><span class="coll-sub">Lorna Bloom</span>
-            <span class="coll-sub">Lorna Frond</span><span class="coll-sub">Lorna Petal</span><span class="coll-sub">Lorna Canopy</span>
+            <span class="coll-sub">Flora Lorna</span><span class="coll-sub">Flora Vilma</span>
+            <span class="coll-sub">Flora Carolina</span><span class="coll-sub">Flora Violeta</span>
+            <span class="coll-sub">Flora Elsa</span><span class="coll-sub">Flora Gina</span>
+            <span class="coll-sub">Flora Teresa</span>
           </div>
         </div>
       </div>
@@ -454,79 +448,77 @@
 </section>
 
 <!-- SHOP -->
-
 <section id="shop">
   <div class="reveal shop-intro">
     <p class="section-label">Ready-to-Install</p>
     <h2 class="section-heading">The<br><em>Collection.</em></h2>
-    <p>Curated tile art panels available for immediate commission — each a complete, self-contained composition. Prices include installation within Singapore.</p>
+    <p>Curated tile art panels available for immediate commission — each a complete, self-contained composition. Installation quoted upon enquiry based on location.</p>
   </div>
   <div class="shop-grid reveal">
     <div class="prod-card">
       <div class="prod-img"><div class="prod-img-bg pi-karst-1"><span class="prod-badge">Limited · 3 Left</span></div></div>
       <div class="prod-info"><div class="prod-collection">Karst</div><div class="prod-name">Karst Fault</div><div class="prod-dim">60 × 90 cm · Freestyle Abstract · Charcoal &amp; Umber</div>
-      <div class="prod-footer"><div class="prod-price">S$1,800<small>incl. installation</small></div><button class="add-cart" data-name="Karst Fault" data-price="1800">Add to Cart</button></div></div>
+      <div class="prod-footer"><div class="prod-price">S$1,800<small>excl. installation</small></div><button class="add-cart" data-name="Karst Fault" data-price="1800">Add to Cart</button></div></div>
     </div>
     <div class="prod-card">
       <div class="prod-img"><div class="prod-img-bg pi-karst-2"></div></div>
       <div class="prod-info"><div class="prod-collection">Karst</div><div class="prod-name">Karst Obsidian</div><div class="prod-dim">45 × 90 cm · Freestyle Geometric · Deep Black</div>
-      <div class="prod-footer"><div class="prod-price">S$1,500<small>incl. installation</small></div><button class="add-cart" data-name="Karst Obsidian" data-price="1500">Add to Cart</button></div></div>
+      <div class="prod-footer"><div class="prod-price">S$1,500<small>excl. installation</small></div><button class="add-cart" data-name="Karst Obsidian" data-price="1500">Add to Cart</button></div></div>
     </div>
     <div class="prod-card">
       <div class="prod-img"><div class="prod-img-bg pi-monolith-1"></div></div>
       <div class="prod-info"><div class="prod-collection">Monolith</div><div class="prod-name">Monolith Slate</div><div class="prod-dim">60 × 60 cm · Precision-Laid · Deep Slate</div>
-      <div class="prod-footer"><div class="prod-price">S$1,400<small>incl. installation</small></div><button class="add-cart" data-name="Monolith Slate" data-price="1400">Add to Cart</button></div></div>
+      <div class="prod-footer"><div class="prod-price">S$1,400<small>excl. installation</small></div><button class="add-cart" data-name="Monolith Slate" data-price="1400">Add to Cart</button></div></div>
     </div>
     <div class="prod-card">
       <div class="prod-img"><div class="prod-img-bg pi-monolith-2"><span class="prod-badge best-b">Bestseller</span></div></div>
       <div class="prod-info"><div class="prod-collection">Monolith</div><div class="prod-name">Monolith Ash</div><div class="prod-dim">60 × 90 cm · Precision-Laid · Warm Ash</div>
-      <div class="prod-footer"><div class="prod-price">S$1,600<small>incl. installation</small></div><button class="add-cart" data-name="Monolith Ash" data-price="1600">Add to Cart</button></div></div>
+      <div class="prod-footer"><div class="prod-price">S$1,600<small>excl. installation</small></div><button class="add-cart" data-name="Monolith Ash" data-price="1600">Add to Cart</button></div></div>
     </div>
     <div class="prod-card">
       <div class="prod-img"><div class="prod-img-bg pi-arch-1"></div></div>
       <div class="prod-info"><div class="prod-collection">Archipelago</div><div class="prod-name">Archipelago Tide</div><div class="prod-dim">45 × 60 cm · Ceramic Decal · Sand &amp; Ivory</div>
-      <div class="prod-footer"><div class="prod-price">S$1,200<small>incl. installation</small></div><button class="add-cart" data-name="Archipelago Tide" data-price="1200">Add to Cart</button></div></div>
+      <div class="prod-footer"><div class="prod-price">S$1,200<small>excl. installation</small></div><button class="add-cart" data-name="Archipelago Tide" data-price="1200">Add to Cart</button></div></div>
     </div>
     <div class="prod-card">
       <div class="prod-img"><div class="prod-img-bg pi-arch-2"></div></div>
       <div class="prod-info"><div class="prod-collection">Archipelago</div><div class="prod-name">Archipelago Pearl</div><div class="prod-dim">30 × 60 cm · Ceramic Decal · Ivory &amp; Stone</div>
-      <div class="prod-footer"><div class="prod-price">S$920<small>incl. installation</small></div><button class="add-cart" data-name="Archipelago Pearl" data-price="920">Add to Cart</button></div></div>
+      <div class="prod-footer"><div class="prod-price">S$920<small>excl. installation</small></div><button class="add-cart" data-name="Archipelago Pearl" data-price="920">Add to Cart</button></div></div>
     </div>
     <div class="prod-card">
       <div class="prod-img"><div class="prod-img-bg pi-lorna-1"><span class="prod-badge new-b">New</span></div></div>
-      <div class="prod-info"><div class="prod-collection">Lorna</div><div class="prod-name">Lorna Fern</div><div class="prod-dim">30 × 30 cm · Plant Emboss · Terracotta &amp; Sage</div>
-      <div class="prod-footer"><div class="prod-price">S$850<small>incl. installation</small></div><button class="add-cart" data-name="Lorna Fern" data-price="850">Add to Cart</button></div></div>
+      <div class="prod-info"><div class="prod-collection">Flora</div><div class="prod-name">Flora Lorna</div><div class="prod-dim">30 × 30 cm · Plant Emboss · Terracotta &amp; Sage</div>
+      <div class="prod-footer"><div class="prod-price">S$850<small>excl. installation</small></div><button class="add-cart" data-name="Flora Lorna" data-price="850">Add to Cart</button></div></div>
     </div>
     <div class="prod-card">
       <div class="prod-img"><div class="prod-img-bg pi-lorna-2"><span class="prod-badge new-b">New</span></div></div>
-      <div class="prod-info"><div class="prod-collection">Lorna</div><div class="prod-name">Lorna Bloom</div><div class="prod-dim">45 × 45 cm · Plant Emboss · Cobalt &amp; Amber</div>
-      <div class="prod-footer"><div class="prod-price">S$980<small>incl. installation</small></div><button class="add-cart" data-name="Lorna Bloom" data-price="980">Add to Cart</button></div></div>
+      <div class="prod-info"><div class="prod-collection">Flora</div><div class="prod-name">Flora Violeta</div><div class="prod-dim">45 × 45 cm · Plant Emboss · Cobalt &amp; Amber</div>
+      <div class="prod-footer"><div class="prod-price">S$980<small>excl. installation</small></div><button class="add-cart" data-name="Flora Violeta" data-price="980">Add to Cart</button></div></div>
     </div>
     <div class="prod-card">
       <div class="prod-img"><div class="prod-img-bg pi-relievo-1"></div></div>
       <div class="prod-info"><div class="prod-collection">Relievo</div><div class="prod-name">Relievo Crest</div><div class="prod-dim">45 × 90 cm · Stencil Handpainted · Gold &amp; Umber</div>
-      <div class="prod-footer"><div class="prod-price">S$1,350<small>incl. installation</small></div><button class="add-cart" data-name="Relievo Crest" data-price="1350">Add to Cart</button></div></div>
+      <div class="prod-footer"><div class="prod-price">S$1,350<small>excl. installation</small></div><button class="add-cart" data-name="Relievo Crest" data-price="1350">Add to Cart</button></div></div>
     </div>
     <div class="prod-card">
       <div class="prod-img"><div class="prod-img-bg pi-relievo-2"><span class="prod-badge">Limited</span></div></div>
       <div class="prod-info"><div class="prod-collection">Relievo</div><div class="prod-name">Relievo Lattice</div><div class="prod-dim">60 × 60 cm · Stencil Handpainted · Stone &amp; Brass</div>
-      <div class="prod-footer"><div class="prod-price">S$1,450<small>incl. installation</small></div><button class="add-cart" data-name="Relievo Lattice" data-price="1450">Add to Cart</button></div></div>
+      <div class="prod-footer"><div class="prod-price">S$1,450<small>excl. installation</small></div><button class="add-cart" data-name="Relievo Lattice" data-price="1450">Add to Cart</button></div></div>
     </div>
     <div class="prod-card">
       <div class="prod-img"><div class="prod-img-bg pi-meridian-1"><span class="prod-badge best-b">Bestseller</span></div></div>
       <div class="prod-info"><div class="prod-collection">Meridian</div><div class="prod-name">Meridian Ember</div><div class="prod-dim">30 × 90 cm · Patterned Stamp · Terracotta &amp; Amber</div>
-      <div class="prod-footer"><div class="prod-price">S$1,100<small>incl. installation</small></div><button class="add-cart" data-name="Meridian Ember" data-price="1100">Add to Cart</button></div></div>
+      <div class="prod-footer"><div class="prod-price">S$1,100<small>excl. installation</small></div><button class="add-cart" data-name="Meridian Ember" data-price="1100">Add to Cart</button></div></div>
     </div>
     <div class="prod-card">
       <div class="prod-img"><div class="prod-img-bg pi-meridian-2"></div></div>
       <div class="prod-info"><div class="prod-collection">Meridian</div><div class="prod-name">Meridian Harvest</div><div class="prod-dim">60 × 60 cm · Patterned Stamp · Spice &amp; Umber</div>
-      <div class="prod-footer"><div class="prod-price">S$1,250<small>incl. installation</small></div><button class="add-cart" data-name="Meridian Harvest" data-price="1250">Add to Cart</button></div></div>
+      <div class="prod-footer"><div class="prod-price">S$1,250<small>excl. installation</small></div><button class="add-cart" data-name="Meridian Harvest" data-price="1250">Add to Cart</button></div></div>
     </div>
   </div>
 </section>
 
 <!-- PROCESS -->
-
 <section id="process">
   <div class="reveal">
     <p class="section-label">How We Work</p>
@@ -541,7 +533,6 @@
 </section>
 
 <!-- CONTACT -->
-
 <section id="contact">
   <div class="reveal">
     <p class="section-label">Begin a Commission</p>
@@ -549,7 +540,7 @@
     <p class="contact-text">Every Likhâ piece begins with a conversation. Whether you have a clear vision or simply a feeling — reach out, and we will find the form together.</p>
     <div class="contact-detail">
       <div class="contact-item"><span class="contact-item-label">Instagram</span><span class="contact-item-value"><a href="https://instagram.com/likhaartisan.co" target="_blank">@likhaartisan.co</a></span></div>
-      <div class="contact-item"><span class="contact-item-label">Based in</span><span class="contact-item-value">Singapore · Philippines</span></div>
+      <div class="contact-item"><span class="contact-item-label">Based in</span><span class="contact-item-value">Philippines · Worldwide Shipping</span></div>
       <div class="contact-item"><span class="contact-item-label">Website</span><span class="contact-item-value"><a href="https://likhaartisan.com">likhaartisan.com</a></span></div>
     </div>
   </div>
@@ -571,7 +562,7 @@
 
 <footer>
   <div class="footer-logo">Likhâ | tile artisan</div>
-  <div class="footer-copy">© 2026 Likhâ. All rights reserved.</div>
+  <div class="footer-copy">© 2026 Likhâ · Philippines · Worldwide</div>
   <div class="footer-social"><a href="https://instagram.com/likhaartisan.co" target="_blank">Instagram</a></div>
 </footer>
 
@@ -594,8 +585,8 @@
     'Monolith Ash':'linear-gradient(135deg,#3a3830,#22201e)',
     'Archipelago Tide':'linear-gradient(135deg,#e8ddd0,#c8bfb0)',
     'Archipelago Pearl':'linear-gradient(135deg,#f5f2ed,#d8d0c4)',
-    'Lorna Fern':'linear-gradient(135deg,#c46a3a,#8a3a58)',
-    'Lorna Bloom':'linear-gradient(135deg,#3a6888,#c4843a)',
+    'Flora Lorna':'linear-gradient(135deg,#c46a3a,#8a3a58)',
+    'Flora Violeta':'linear-gradient(135deg,#3a6888,#c4843a)',
     'Relievo Crest':'linear-gradient(135deg,#7a6a58,#5a4f44)',
     'Relievo Lattice':'linear-gradient(135deg,#8a7a68,#3a3530)',
     'Meridian Ember':'linear-gradient(135deg,#9e4e24,#c4843a)',
@@ -627,6 +618,5 @@
   document.addEventListener('click',e=>{const d=document.getElementById('cartDrawer'),b=document.getElementById('cartBtn');if(d.classList.contains('open')&&!d.contains(e.target)&&!b.contains(e.target))d.classList.remove('open')});
   renderCart();
 </script>
-
 </body>
 </html>
